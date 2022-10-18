@@ -5,7 +5,7 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header" data-test="header">
       <a class="navigation-logo" href="index.html">
         <img class="logo" src="#" alt="Логотип сайта путешествие в Седону." />
       </a>
@@ -38,8 +38,8 @@
         </ul>
       </nav>
     </header>
-    <main class="main-inner">
-      <section class="filter-hotel">
+    <main class="main-inner" data-test="main">
+      <section class="filter-hotel" data-test="filter">
         <header class="inner-header">
           <h1 class="hotel-sedona">Гостиницы седоны</h1>
           <ul class="breadcrumbs">
@@ -131,7 +131,7 @@
           <button class="button" type="submit">Сбросить</button>
         </form>
       </section>
-      <section class="filter-result">
+      <section class="filter-result" data-test="catalog">
         <div class="sort-result">
           <p class="filter-search-hotel">Найдено гостиниц: 38</p>
           <select class="select-control" aria-label="Сортировка">
@@ -228,7 +228,7 @@
           </li>
         </ul>
       </section>
-      <section class="subscribe-inner">
+      <section class="subscribe-inner" data-test="subscribe">
         <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
         <p class="subscribe-description">
           Только полезная информация и никакого спама,<br />
@@ -253,7 +253,7 @@
         </form>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="https://vk.com/htmlacademy">
