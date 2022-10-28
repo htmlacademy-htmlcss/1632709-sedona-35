@@ -14,12 +14,32 @@
   font-display: swap;
 }
 
+html {
+height: 100%;
+}
+
 body {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
+  background-color: #f2f2f2;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main-index {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 .button {
   border: none;
   font-family: inherit;
@@ -60,6 +80,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: inherit;
+  text-decoration: none;
 }
 
 .button-navigation {
@@ -313,4 +334,163 @@ body {
 .subscribe-description-inner {
   text-align: center;
   color: #000000;
+}
+
+.main-header {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation-logo {
+  width: 138px;
+  margin: 0 70px;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 340px;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-user {
+  width: 268px;
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+.hero-welcome {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-card {
+  display: flex;
+}
+
+.advantages-list {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.advantages-item {
+  display: flex;
+  width: 400px;
+  height: 384px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.search-hotel {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-search-hotel {
+  width: 376px;
+  margin: 0 auto;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+ width: 142px;
+}
+
+.page-footer-phone {
+  width: 750px;
+}
+
+.htmlacademy-link {
+  width: 115px;
+}
+
+.hotel-sedona {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.breadcrumbs {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.catalog-filter {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.button-filter {
+  display: flex;
+  flex-direction: column;
+  width: 191px;
+  margin: 0 auto;
+}
+
+.sort-result {
+display: flex;
+width: 1060px;
+margin: 0 auto;
+justify-content: center;
+}
+
+.filter-search-hotel {
+  width: 338px;
+  margin-right: auto;
+}
+
+.select-control {
+  width: 292px;
+}
+
+.view-item {
+  width: 160px;
+}
+
+.product-list {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+.pagination {
+  display: flex;
+  width: 400px;
+  margin: 0 110px;
+}
+
+.pagination-item {
+  width: 60px;
 }
