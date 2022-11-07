@@ -132,6 +132,8 @@ body {
 }
 
 .hero-welcome {
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
@@ -167,6 +169,10 @@ body {
   display: flex;
 }
 
+.sedona-town {
+  max-width: 100%;
+  height: auto;
+}
 .advantages-card-content {
   color: #ffffff;
   background: #82b3d3;
@@ -213,6 +219,11 @@ body {
 
 .advantages-item:nth-child(even) {
   background-color: rgba(131, 179, 211, 0.2);
+}
+
+.diablo-bridge {
+  max-width: 100%;
+  height: auto;
 }
 
 .features-list {
@@ -490,6 +501,8 @@ margin-bottom: 16px;
 
  .product-card-image {
   margin-bottom: 16px;
+  max-width: 100%;
+  height: auto;
  }
 
 .product-card-title {
