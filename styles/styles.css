@@ -191,6 +191,23 @@ body {
   text-transform: uppercase;
 }
 
+.button-navigation:hover {
+  background-color: #615048;
+}
+
+.button-navigation:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-navigation:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.button-navigation:disabled {
+  background-color: #e5e5e5;
+}
+
 .hero-welcome {
   max-width: 100%;
   height: auto;
@@ -403,6 +420,23 @@ body {
   text-transform: uppercase;
 }
 
+.button-search-hotel:hover {
+  background-color: #615048;
+}
+
+.button-search-hotel:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-search-hotel:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.button-search-hotel:disabled {
+  background-color: #e5e5e5;
+}
+
 .subscribe {
   background-image: url('../images/subscribe-bg.jpg');
   background-size: cover;
@@ -449,6 +483,23 @@ body {
   border-bottom-right-radius: 4px;
 }
 
+.subscribe-button:hover {
+  background-color: #68a2ca;
+}
+
+.subscribe-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-button:focus {
+  background-color: #68a2ca;
+  outline: none;
+}
+
+.subscribe-button:disabled {
+  background-color: #e5e5e5;
+}
+
 .page-footer {
   display: flex;
   justify-content: space-between;
@@ -471,6 +522,20 @@ body {
  height: 40px;
  align-items: center;
  justify-content: center;
+ color: #83b3d3;
+}
+
+.svg-social-link:hover {
+  color: #68a2ca;
+}
+
+.svg-social-link:active {
+  color: rgba(104, 162, 202, 0.3);
+}
+
+.footer-social-link:focus {
+  color: #68a2ca;
+  outline: none;
 }
 
 .page-footer-phone {
@@ -480,6 +545,36 @@ body {
   line-height: 40px;
   text-decoration: none;
   color: #000000;
+}
+
+.page-footer-phone:hover {
+  color: #756157;
+}
+
+.page-footer-phone:focus {
+  color: #756157;
+  outline: none;
+}
+
+.page-footer-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
+.htmlacademy-link {
+  color: #000000;
+}
+
+.htmlacademy-link:focus {
+  color: #756157;
+  outline: none;
+ }
+
+.htmlacademy-link-svg:hover {
+ color: #756157;
+}
+
+.htmlacademy-link-svg:active {
+color: rgba(117, 97, 87, 0.3);
 }
 
 .filter-hotel {
@@ -780,10 +875,6 @@ margin-bottom: 16px;
   border-bottom-left-radius: 4px;
   background-color: #f2f2f2;
   border: 0;
-}
-
-.htmlacademy-link {
-  width: 115px;
 }
 
 .product-list {
