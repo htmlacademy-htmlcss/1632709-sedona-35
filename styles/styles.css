@@ -216,11 +216,12 @@ body {
 }
 
 .hero {
-  background-image: url('../images/hero-background.jpg');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-color: #756157;
   padding: 51px 51px 82px 51px;
+}
+
+.hero-bg {
+  background: url("/images/hero-footer.svg") left bottom no-repeat, url('../images/hero-background.jpg') no-repeat;
+  background-color: #756157;
 }
 
 .advantages-heading {
@@ -607,6 +608,45 @@ color: rgba(117, 97, 87, 0.3);
   padding: 0;
 }
 
+.breadcrumbs-link {
+  cursor: pointer;
+}
+
+.breadcrumbs-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:active {
+  color: rgba(255, 255, 255, 0.3)
+}
+
+.breadcrumbs-link:focus {
+  outline: none;
+}
+
+.breadcrumbs-icon {
+  display: inline-block;
+  background-image: url("/images/breadcrumbs-hotel.svg");
+  background-position: center;
+  width: 12px;
+  height: 12px;
+  margin-right: 28px;
+}
+
+.breadcrumbs-arrow {
+  position: relative;
+}
+
+.breadcrumbs-arrow::after {
+  content: "";
+  position: absolute;
+  background-image: url("/images/breadcrumbs-arrow.svg");
+  width: 8px;
+  height: 10px;
+  left: 23px;
+  top: 5px;
+}
+
 .catalog-filter {
   display: flex;
   justify-content: space-between;
@@ -701,6 +741,23 @@ margin-bottom: 16px;
   margin: 0 0 32px 0;
 }
 
+.button-apply:hover {
+ background-color: #68a2ca;
+}
+
+.button-apply:active {
+ color: rgba(255, 255, 255, 0.3);
+}
+
+.button-apply:focus {
+  background-color: #68a2ca;
+  outline: none;
+ }
+
+ .button-apply:disabled {
+  background-color: #e5e5e5;
+ }
+
 .button-throw {
   display: block;
   min-width: 191px;
@@ -711,6 +768,22 @@ margin-bottom: 16px;
   text-transform: uppercase;
   padding: 8px;
   margin: 0;
+}
+
+.button-throw:hover {
+ color: rgba(255, 255, 255, 0.3);
+}
+
+.button-throw:active {
+  color :rgba(255, 255, 255, 0.3)
+}
+
+.button-throw:focus {
+ outline: 3px solid #83b3d3;
+}
+
+.button-throw:disabled {
+  color: rgb(255, 255, 255, 0.1);
 }
 
 .filter-result {
@@ -770,6 +843,18 @@ margin-bottom: 16px;
   border-radius: 4px;
   }
 
+.view-button:hover {
+  border: 2px solid #000000;
+}
+
+.view-button:active {
+  border: 2px solid #000000;
+}
+
+.view-button:focus {
+  border: 2px solid #68a2ca;
+}
+
  .product-card-image {
   margin-bottom: 16px;
   max-width: 100%;
@@ -810,6 +895,23 @@ margin-bottom: 16px;
   text-decoration: none;
 }
 
+.product-list-more-info-button:hover {
+  background-color: #615048;
+}
+
+.product-list-more-info-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.product-list-more-info-button:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.product-list-more-info-button:disabled {
+  background-color: #e5e5e5;
+}
+
 .product-list-top-button {
   display: block;
   padding: 8px;
@@ -820,6 +922,23 @@ margin-bottom: 16px;
   background-color: #82b3d3;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.product-list-top-button:hover {
+  background-color: #68a2ca;
+}
+
+.product-list-top-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.product-list-top-button:focus {
+   background-color: #68a2ca;
+   outline: none;
+}
+
+.product-list-top-button:disabled {
+   background-color: #e5e5e5;
 }
 
 .product-list-top-button-green {
@@ -834,6 +953,23 @@ margin-bottom: 16px;
   text-decoration: none;
 }
 
+.product-list-top-button-green:hover{
+  background-color: #6c9e42;
+}
+
+.product-list-top-button-green:active {
+ color: rgba(255, 255, 255, 0.3);
+}
+
+.product-list-top-button-green:focus {
+  background-color: #6c9e42;
+  outline: none;
+}
+
+.product-list-top-button-green:disabled {
+ background-color: #e5e5e5;
+}
+
 .rating {
   display: block;
   padding-top: 8px;
@@ -844,6 +980,32 @@ margin-bottom: 16px;
   background-color: #e6e6e6;
   text-transform: uppercase;
   border-radius: 4px;
+}
+
+.star-rating {
+ background-image: url(/images/star-rating-icon.svg);
+ background-repeat: space;
+ align-self: center;
+}
+
+.amara-resort-rating {
+ width: 80px;
+ height: 20px;
+}
+
+.poco-diablo-rating {
+ width: 80px;
+ height: 20px;
+}
+
+.desert-quail-rating {
+ width: 70px;
+ height: 20px;
+}
+
+.greentree-rating {
+  width: 40px;
+  height: 20px;
 }
 
 .subscribe-inner {
@@ -919,6 +1081,19 @@ margin-bottom: 16px;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
+}
+
+.pagination-link-condition:hover {
+  background-color: #68a2ca;
+}
+
+.pagination-link-condition:active {
+ color: rgba(255, 255, 255, 0.3);
+}
+
+.pagination-link-condition:focus {
+ background-color: #68a2ca;
+ outline: none;
 }
 
 .pagination-current {
