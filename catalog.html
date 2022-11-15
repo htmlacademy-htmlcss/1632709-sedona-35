@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="icon" href="favicon.ico">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
   </head>
   <body>
     <div class="container">
@@ -25,7 +25,7 @@
               <a class="navigation-link" href="index.html">Главная</a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">О седоне</a>
+              <a class="navigation-link" href="#">О Седоне</a>
             </li>
             <li class="navigation-item navigation-item_active">
               <a class="navigation-link" href="#">Гостиницы</a>
@@ -54,38 +54,74 @@
             <h1 class="catalog-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link breadcrumbs-link-home" href="index.html">
-                  <svg aria-hidden="true" focusable="false" width="13" height="13" viewBox="0 0 13 13" fill="CurrentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="m6.37.5-6 5.8v6.2h12V6.3l-6-5.8Zm5 11h-10V6.7l5-4.8 5 4.8v4.8Z"/>
-                    <path d="M4.37 10.5h1V8h2v2.5h1V7h-4v3.5Z"/>
+                <a
+                  class="breadcrumbs-link breadcrumbs-link-home"
+                  href="index.html"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    width="13"
+                    height="13"
+                    viewBox="0 0 13 13"
+                    fill="CurrentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m6.37.5-6 5.8v6.2h12V6.3l-6-5.8Zm5 11h-10V6.7l5-4.8 5 4.8v4.8Z"
+                    />
+                    <path d="M4.37 10.5h1V8h2v2.5h1V7h-4v3.5Z" />
                   </svg>
                   <span class="visually-hidden">Главная страница.</span>
                 </a>
               </li>
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="#" title="Текущая страница">Гостиницы</a>
+                <a class="breadcrumbs-link" href="#" title="Текущая страница"
+                  >Гостиницы</a
+                >
               </li>
             </ul>
           </header>
-          <form class="filter-form" action="https://echo.htmlacademy.ru/" method="get">
+          <form
+            class="filter-form"
+            action="https://echo.htmlacademy.ru/"
+            method="get"
+          >
             <fieldset class="filter-infrastructure filter-group">
               <legend class="filter-title">Инфраструктура:</legend>
               <ul class="filter-list">
                 <li class="filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="checkbox" name="infrastructure" value="pool" checked>
+                    <input
+                      class="control-input visually-hidden"
+                      type="checkbox"
+                      name="infrastructure"
+                      value="pool"
+                      checked
+                    />
                     <span class="control-text">Бассейн</span>
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="checkbox" name="infrastructure" value="parking" checked>
+                    <input
+                      class="control-input visually-hidden"
+                      type="checkbox"
+                      name="infrastructure"
+                      value="parking"
+                      checked
+                    />
                     <span class="control-text">Парковка</span>
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="checkbox" name="infrastructure" value="wi-fi">
+                    <input
+                      class="control-input visually-hidden"
+                      type="checkbox"
+                      name="infrastructure"
+                      value="wi-fi"
+                    />
                     <span class="control-text">Wi-Fi</span>
                   </label>
                 </li>
@@ -96,19 +132,35 @@
               <ul class="filter-list">
                 <li class="filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="radio" name="type-housing" value="hotel" checked>
+                    <input
+                      class="control-input visually-hidden"
+                      type="radio"
+                      name="type-housing"
+                      value="hotel"
+                      checked
+                    />
                     <span class="control-text">Гостиница</span>
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="radio" name="type-housing" value="motel">
+                    <input
+                      class="control-input visually-hidden"
+                      type="radio"
+                      name="type-housing"
+                      value="motel"
+                    />
                     <span class="control-text">Мотель</span>
                   </label>
                 </li>
                 <li class="filter-item">
                   <label class="control">
-                    <input class="control-input visually-hidden" type="radio" name="type-housing" value="apartments">
+                    <input
+                      class="control-input visually-hidden"
+                      type="radio"
+                      name="type-housing"
+                      value="apartments"
+                    />
                     <span class="control-text">Апартаменты</span>
                   </label>
                 </li>
@@ -118,30 +170,51 @@
               <legend class="filter-title">Стоимость, ₽:</legend>
               <label class="filter-price-title filter-price-min">
                 <span class="filter-price-text">от</span>
-                <input class="field filter-input" type="number" name="min-price" value="0" min="0">
+                <input
+                  class="field filter-input"
+                  type="number"
+                  name="min-price"
+                  value="0"
+                  min="0"
+                />
               </label>
               <label class="filter-price-title filter-price-max">
                 <span class="filter-price-text">до</span>
-                <input class="field filter-input" type="number" name="max-price" value="9000" min="0">
+                <input
+                  class="field filter-input"
+                  type="number"
+                  name="max-price"
+                  value="9000"
+                  min="0"
+                />
               </label>
               <div class="range-scale">
                 <div class="range-bar">
                   <button class="range-toggle toggle-min" type="button">
-                    <span class="visually-hidden">Выбрать минимальную стоимость.</span>
+                    <span class="visually-hidden"
+                      >Выбрать минимальную стоимость.</span
+                    >
                   </button>
                   <button class="range-toggle toggle-max" type="button">
-                    <span class="visually-hidden">Выбрать максимальную стоимость.</span>
+                    <span class="visually-hidden"
+                      >Выбрать максимальную стоимость.</span
+                    >
                   </button>
                 </div>
               </div>
             </fieldset>
             <div class="filter-buttons">
-              <button class="button button-blue" type="submit">Применить</button>
-              <button class="button button-transparent" type="reset">Сбросить</button>
+              <button class="button button-blue" type="submit">
+                Применить
+              </button>
+              <button class="button button-transparent" type="reset">
+                Сбросить
+              </button>
             </div>
           </form>
         </section>
         <section class="filter-result">
+          <h2 class="visually-hidden">Результаты поиска.</h2>
           <div class="sort-result">
             <p class="filter-search-hotel">Найдено гостиниц: 38</p>
             <select class="select-control" aria-label="Сортировка">
